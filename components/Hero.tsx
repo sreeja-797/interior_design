@@ -1,5 +1,7 @@
 'use client'
 
+import Image from 'next/image'
+
 interface HeroProps {
   onButtonClick: (type: 'home' | 'office') => void
 }
@@ -9,10 +11,12 @@ export default function Hero({ onButtonClick }: HeroProps) {
     <section id="home" className="gradient-bg text-white py-20 relative overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 opacity-20">
-        <img 
+        <Image 
           src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1920&h=800&fit=crop&auto=format" 
           alt="Interior Design Background" 
-          className="w-full h-full object-cover"
+          fill
+          className="object-cover"
+          priority
         />
       </div>
       {/* Overlay Gradient */}
