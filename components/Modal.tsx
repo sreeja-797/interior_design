@@ -1,7 +1,7 @@
 'use client'
 
-import { Designer } from '@/types/designer'
-import { Service } from '@/types/service'
+import { Designer } from '../types/designer'
+import { Service } from '../types/service'
 
 interface ModalProps {
   isOpen: boolean

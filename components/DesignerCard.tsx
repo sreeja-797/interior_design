@@ -1,6 +1,6 @@
 'use client'
 
-import { Designer } from '@/types/designer'
+import { Designer } from '../types/designer'
 import Image from 'next/image'
 
 interface DesignerCardProps {

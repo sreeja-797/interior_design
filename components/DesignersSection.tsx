@@ -1,8 +1,8 @@
 'use client'
 
-import { designers } from '@/data/designers'
+import { designers } from '../data/designers'
 import DesignerCard from './DesignerCard'
-import { Designer } from '@/types/designer'
+import { Designer } from '../types/designer'
 
 interface DesignersSectionProps {
   onGetQuote: (designer: Designer) => void

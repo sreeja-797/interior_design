@@ -1,7 +1,7 @@
 'use client'
 
-import { services } from '@/data/services'
-import { Service } from '@/types/service'
+import { services } from '../data/services'
+import { Service } from '../types/service'
 import Image from 'next/image'
 
 interface ServicesProps {

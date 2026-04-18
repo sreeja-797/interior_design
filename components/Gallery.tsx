@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { galleryItems } from '@/data/gallery'
-import { GalleryItem } from '@/types/gallery'
+import { galleryItems } from '../data/gallery'
+import { GalleryItem } from '../types/gallery'
 import Image from 'next/image'
 
 export default function Gallery() {

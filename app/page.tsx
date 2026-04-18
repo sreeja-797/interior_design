@@ -1,17 +1,17 @@
 'use client'
 
 import { useState } from 'react'
-import Header from '@/components/Header'
-import Hero from '@/components/Hero'
-import DesignersSection from '@/components/DesignersSection'
-import Gallery from '@/components/Gallery'
-import Services from '@/components/Services'
-import FAQ from '@/components/FAQ'
-import Footer from '@/components/Footer'
-import Modal from '@/components/Modal'
-import Notification from '@/components/Notification'
-import { Designer } from '@/types/designer'
-import { Service } from '@/types/service'
+import Header from '../components/Header'
+import Hero from '../components/Hero'
+import DesignersSection from '../components/DesignersSection'
+import Gallery from '../components/Gallery'
+import Services from '../components/Services'
+import FAQ from '../components/FAQ'
+import Footer from '../components/Footer'
+import Modal from '../components/Modal'
+import Notification from '../components/Notification'
+import { Designer } from '../types/designer'
+import { Service } from '../types/service'
 
 export default function Home() {
   const [modal, setModal] = useState<{
